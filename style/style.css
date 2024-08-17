@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url("../social-links-profile-main/social-links-profile-main/assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../social-links-profile-main/social-links-profile-main/assets/fonts/static/Inter-Regular.ttf") format("truetype") ;
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../social-links-profile-main/social-links-profile-main/assets/fonts/static/Inter-SemiBold.ttf") format("truetype") ;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #212121;
+    font-family: "Inter-Regular" ;
+}
+
+.container{
+    max-width: 30rem;
+    background-color: #424242 ;
+    margin: 20rem auto ;
+    border-radius: 1rem ;
+    -webkit-border-radius: 1rem ;
+    -moz-border-radius: 1rem ;
+    -ms-border-radius: 1rem ;
+    -o-border-radius: 1rem ;
+}
+
+.user-profile{
+    width: 6rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+.user-profile__picture{
+    width: 100% ;
+    object-fit: cover;
+    border-radius: 100% ;
+}
+.user-name{
+    text-align: center;
+    color: #FAFAFA;
+    padding-top: 2.5rem;
+    margin: 0rem ;
+}
+.user-city{
+    text-align: center;
+    color: #C6FF00;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+}
+.user-info{
+    text-align: center;
+    color: #FAFAFA;
+}
+.user-accounts{
+    padding-bottom: 2.5rem;
+    font-family: 'Inter-semiBold' ;
+}
+.user-account{
+    max-width: 25rem;
+    background-color: #757575;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+    margin-bottom: 1.2rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.user-account__link{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #FAFAFA;
+    line-height: 3rem;
+}
